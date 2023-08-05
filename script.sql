@@ -68,7 +68,7 @@ SELECT
 FROM customers
 
 -- Ch.2 Filtering Data
-
+--EXAMPLES  
 SELECT
 	last_name, first_name, city, state
 FROM
@@ -135,6 +135,7 @@ FROM
 WHERE
 	c.company_name IS NULL;
 
+--PRACTICE
 --Get a list of sales records where the sale was a lease.
 SELECT *
 FROM sales
@@ -156,6 +157,8 @@ WHERE first_name LIKE 'M%' OR first_name LIKE '%d';
 SELECT * FROM employees
 WHERE phone LIKE '604-%';
 
+
+--Chapter 3 - Joining Data
 
 
 
